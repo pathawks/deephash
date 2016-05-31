@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "# SHA-256"
+find * -type f -print0 | xargs -0 shasum -b -a 256

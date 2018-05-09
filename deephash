@@ -5,5 +5,7 @@
 #
 # This script is licensed under The MIT License (see LICENSE for more information).
 
+echo "#!/usr/bin/env shasum --check"
+echo ""
 echo "# SHA-256"
 find * -type f -print0 | xargs -0 shasum -b -a 256
